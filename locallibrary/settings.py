@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '0)&no@8dd=h%p(s%949r0k6n0!-h%w
 # DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['krodinv.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
